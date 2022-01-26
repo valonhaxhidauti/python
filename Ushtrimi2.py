@@ -17,11 +17,9 @@ ln = len(lista1)
 
 print("ky eshte elementi i pare:", lista1[0])
 
-# print(lista1[-1:])
 print("ky eshte elementi i fundit:", lista1[ln - 1 :])
 print("keto jane tre elementet e para:", lista1[:3])
 
-# print(lista1[-3:])
 print("keto jane tre elementet e fundit:", lista1[ln - 3 :])
 print("ky eshte elementi i katert:", lista1[3])
 
