@@ -1,11 +1,11 @@
-'''
+"""
 Ushtrimi4:
 - krijojeni nje liste me 10 elemente me numrat nga 1 deri ne 10
 - Krijojini dy lista te zbrazta njera me emrin numrat_cift=[] dhe tjetra me emrin numrat_tek=[].
-- Duke perdorur for loops dhe metodat qe i kemi mesu deri sot, fusni numrat nga lista 10 elementeshe neper listat perkatese per numrat cift ose tek.
+- Duke perdorur for loops, fusni numrat nga lista 10 elementeshe neper listat perkatese per numrat cift ose tek.
 - Konfirmojeni duke printuar te dy listat ne fund
 
-'''
+"""
 
 lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
@@ -17,10 +17,6 @@ for elem in lista:
         numrat_cift.append(elem)
     else:
         numrat_tek.append(elem)
-
-#     mund ta perdorim dhe kushtin elif per te printuar nr tek
-#     elif elem % 2==1:
-#     numrat_tek.append(elem)
 
 print("Numrat tek nga lista me 10 numra:", numrat_tek)
 print("Numrat çift nga lista me 10 numra:", numrat_cift)
