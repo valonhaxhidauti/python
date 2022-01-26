@@ -10,7 +10,7 @@ Detyra 1.1  “rock paper scissors ”
 import random
 import time  # Per te pauzuar lojen per pak qaste gjate ekzekutimit te komandave
 
-# Praktika-detyra_1.py simulon nje loje rock, paper, scissor
+# Detyra1.1.py simulon nje loje rock, paper, scissor
 
 # Per te bere doren e kompjuterit te rastesishme: rock, paper ose scissor, ku rock = 1, paper = 2 dhe scissor e llogarisim si 3
 ran = random.randint(1, 3)
@@ -74,7 +74,8 @@ while a:
     else:
         print("Vetem inputet rock, paper ose scissor pranohen si valide")
         time.sleep(1)
-        continue  # Nese inputi nuk eshte rock, paper ose scissor kthehu ne fillim
+        # Nese inputi nuk eshte rock, paper ose scissor kthehu ne fillim
+        continue
 
     b = True
     while b:
@@ -83,14 +84,12 @@ while a:
             time.sleep(1)
             a = True
             b = False
-            ran = random.randint(
-                1, 3
-            )  # Ricaktoje doren e rradhes si rock,paper apo scissor
+            # Ricaktoje doren e rradhes si rock,paper apo scissor
+            ran = random.randint(1, 3)
         elif inp2 == "jo":
             a = False
             b = False
         else:
-            print(
-                "Vetem vlerat po ose jo mund te pranohen si valide"
-            )  # Nese inputi nuk eshte po ose jo, pyesim lojtarin perseri
+            # Nese inputi nuk eshte po ose jo, pyesim lojtarin perseri
+            print("Vetem vlerat po ose jo mund te pranohen si valide")
             time.sleep(1)
